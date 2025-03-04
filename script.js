@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const portfolio = document.getElementById("portfolio");
   const bgText = document.querySelector(".scroll-text");
 
-  // Terminal-Öffnungsanimation (unverändert)
+  // Terminal-Öffnungsanimation
   const commands = [
     "C:\\> echo Willkommen zu meinem Portfolio",
     "C:\\> cd portfolio",
