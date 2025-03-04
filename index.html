@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Kenzo Gantenbein Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Terminal-Animationsbereich (wird beim Laden angezeigt) -->
+  <div id="terminal">
+    <pre id="terminal-output"></pre>
+  </div>
+
+  <!-- CMD-Hintergrund: Hier wird der Text per JavaScript kontinuierlich abgetippt -->
+  <div id="background-cmd">
+    <div class="scroll-text"></div>
+  </div>
+
+  <!-- Portfolio-Inhalt -->
+  <div id="portfolio" class="hidden">
+    <header>
+      <h1>Kenzo Gantenbein</h1>
+      <p>Informatiker Plattformentwickler, 2. Lehrjahr</p>
+      <p>Email: <a href="mailto:Kenzo.Gantenbein@swisscom.com">Kenzo.Gantenbein@swisscom.com</a></p>
+      <p>Mobil: +41-79-502-04-48 | Teams: +41-58-223 97 08</p>
+    </header>
+
+    <!-- Projekte in animierten Kacheln -->
+    <section id="projekte">
+      <h2>Projekte</h2>
+      <div class="grid-container">
+        <!-- Kachel 1 -->
+        <div class="grid-item">
+          <div class="item-header">
+            <h3>Management Support Assistant (MSU) @Junior Center Next Generation</h3>
+            <p class="zeitraum">02.08.24 - 31.01.25</p>
+          </div>
+          <div class="item-content">
+            <p>Planen und Koordinieren der NEX Day's 2024. Erstellung der Lehrverträge und Unterstützung beim Eintrittsprozess.</p>
+          </div>
+        </div>
+        <!-- Kachel 2 -->
+        <div class="grid-item">
+          <div class="item-header">
+            <h3>Helfer First Steps</h3>
+            <p class="zeitraum">05.08.24 - 09.08.24</p>
+          </div>
+          <div class="item-content">
+            <p>IT-Schulung der Informatiker.</p>
+          </div>
+        </div>
+        <!-- Kachel 3 -->
+        <div class="grid-item">
+          <div class="item-header">
+            <h3>Call Detail Records Auswertung</h3>
+            <p class="zeitraum">02.01.24 - 31.05.24</p>
+          </div>
+          <div class="item-content">
+            <p>Abholen und graphische Aufbereitung von Call Detail Records des UC-Systems. Scrum Master des Lernenden Center &amp; DevOps Engineer.</p>
+          </div>
+        </div>
+        <!-- Kachel 4 -->
+        <div class="grid-item">
+          <div class="item-header">
+            <h3>Kurzprojekt Zukunftstag St.Gallen</h3>
+            <p class="zeitraum">08.11.23 - 10.11.23</p>
+          </div>
+          <div class="item-content">
+            <p>Mitgestaltung des Zukunftstages und Leitung des Workshops für Hardware und Server.</p>
+          </div>
+        </div>
+        <!-- Kachel 5 -->
+        <div class="grid-item">
+          <div class="item-header">
+            <h3>ICT Bootcamp Windows Networking Projekt</h3>
+            <p class="zeitraum">14.08.23 - 27.01.24</p>
+          </div>
+          <div class="item-content">
+            <p>Einstieg in Grundsysteme und Komponenten aus verschiedenen Bereichen. Aufsetzen und Konfigurieren einer Domain. Austausch und Wartung von Servern.</p>
+          </div>
+        </div>
+        <!-- Kachel 6 -->
+        <div class="grid-item">
+          <div class="item-header">
+            <h3>First Steps</h3>
+            <p class="zeitraum">02.08.23 - 14.08.23</p>
+          </div>
+          <div class="item-content">
+            <p>Einführung in die Arbeitswelt von Swisscom.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Weitere Informationen in ansprechenden Karten -->
+    <section id="schulbildung">
+      <h2>Schulbildung</h2>
+      <div class="info-card">
+        <h3>Berufsschule, GBS SG</h3>
+        <p>Seit 2023</p>
+      </div>
+    </section>
+
+    <!-- Interessen als eigene Kacheln -->
+    <section id="interessen">
+      <h2>Interessen</h2>
+      <div class="info-grid">
+        <div class="info-item"><h3>Informatik</h3></div>
+        <div class="info-item"><h3>Zeichnen</h3></div>
+        <div class="info-item"><h3>Musik</h3></div>
+        <div class="info-item"><h3>Social Media</h3></div>
+      </div>
+    </section>
+
+    <section id="sprachen">
+      <h2>Sprachen</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <h3>Deutsch</h3>
+          <p>Muttersprache</p>
+        </div>
+        <div class="info-item">
+          <h3>Portugiesisch</h3>
+          <p>Muttersprache</p>
+        </div>
+        <div class="info-item">
+          <h3>Englisch</h3>
+          <p>Fließend</p>
+        </div>
+        <div class="info-item">
+          <h3>Französisch</h3>
+          <p>Grundkenntnisse</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="referenzen">
+      <h2>Referenzen</h2>
+      <div class="info-card">
+        <h3>Marko Maloca, Lernbegleiter</h3>
+        <p>Email: <a href="mailto:Marko.Maloca@swisscom.com">Marko.Maloca@swisscom.com</a></p>
+        <p>Teams: +41-58-223-36-46</p>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
