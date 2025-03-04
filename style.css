@@ -58,7 +58,7 @@ a:hover {
   z-index: -2;
 }
 
-/* Hintergrundtext – größer und mit erhöhter Schriftgröße */
+/* Hintergrundtext – grösser und mit erhöhter Schriftgrösse */
 .scroll-text {
   position: absolute;
   top: 0;
@@ -168,7 +168,7 @@ section h2 {
   font-size: 1rem;
 }
 
-/* Hover-Effekt: Kachel animiert vergrößern + Glow */
+/* Hover-Effekt: Kachel animiert vergrössern + Glow */
 .grid-item:hover {
   transform: scale(1.15);
   box-shadow: 0 12px 20px rgba(0,0,0,0.6), 0 0 15px #80d8ff;
